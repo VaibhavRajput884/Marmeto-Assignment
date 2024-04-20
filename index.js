@@ -20,6 +20,7 @@ function calculateDiscountPercentage(price, compareAtPrice) {
   return Math.round(discount);
 }
 
+
 async function selectCatagory(category) {
   try {
     const data = await fetchData();
